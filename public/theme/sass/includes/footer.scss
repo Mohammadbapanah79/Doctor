@@ -1,0 +1,88 @@
+@import 'variables';
+
+.company-interdoction{
+    text-align: justify;
+}
+footer {
+    background-color: #151414;
+    
+
+
+    .container {
+        .connection {
+            .col-12.col-md-4 {
+
+                .row {
+                    .col-8 {
+                        a {
+                            font-size: 1rem;
+                            font-weight: 700;
+                            color: white;
+
+                            &:hover {
+                                color: $color-primary-1;
+                            }
+                        }
+
+                        p {
+                            color: #6c757d;
+                            font-size: 0.8rem;
+                        }
+                    }
+
+                    .col-4 {
+                        i {
+                            font-size: 3rem;
+                            color: $color-primary-1;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+
+    .row.menu {
+        h5 {
+
+            width: 10rem;
+            color: white;
+
+            font-weight: 700;
+
+
+        }
+
+        hr {
+            width: 5rem;
+            height: 2px;
+            background-color: grey;
+        }
+
+        ul {
+            li {
+                a {
+
+                    &:hover {
+                        color: $color-primary-1 !important;
+                    }
+
+                }
+            }
+        }
+
+
+    }
+
+    .copyright {
+        background-color: black;
+
+        a {
+            color: gray;
+        }
+    }
+
+}

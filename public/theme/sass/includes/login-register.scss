@@ -1,0 +1,72 @@
+@import 'variables';
+
+
+
+body.body-full-form{
+    header{
+        position: fixed !important;
+    }
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+    #bg {
+        background-image: url(../images/login/d.jpg);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        filter: blur(5px);
+    }
+    
+    
+    .userInfo{
+        min-width: 22rem;
+        position: relative;
+    
+        label{
+            color: #fff !important;
+            font-weight: bolder;
+        }
+    
+        form{
+            
+            border: solid $color-primary-1 1px;
+            border-radius: 1rem ;
+    
+            button{
+                color: #fff;
+                background-color: $color-primary-1;
+                &:hover{
+                    background-color: $color-primary-0 !important;
+                    color: #fff;
+                }
+            }
+            
+            
+        }
+    
+        input,button {
+            box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+            border: none !important;
+    
+            &:focus {
+                outline: none !important;
+                box-shadow: $fashion-shadow !important;
+            }
+        }
+       
+    
+    }
+    
+    
+}
+
+

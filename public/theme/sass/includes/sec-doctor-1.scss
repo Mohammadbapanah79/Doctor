@@ -1,0 +1,168 @@
+@import "variables";
+
+
+.sec-doctor-1{
+    p{
+        text-align: justify ;
+    }
+     .card{
+         .card-title{
+             font-weight: bold;
+         }
+         border: none !important;
+         .image-doctor{
+             max-height: 100rem !important;
+             img{
+                 object-fit: cover !important;
+             }
+         }
+
+         
+     }
+
+     .detail-doctor{
+         button.active{
+             background-color: $color-primary-1 !important;
+             color: #fff;
+         }
+     
+
+
+     }
+     .comment{
+         .title{
+             font-weight: bold;
+         }
+     }
+
+
+     
+.resevsion {
+    
+    .container {
+         
+       .right-sight {
+             color: #fff;
+            background: $color-primary-0;
+            background: linear-gradient(90deg, $color-primary-1 0%, $color-primary-0 100%);
+
+            
+           h3 {
+               font-weight: 700 !important;
+               font-size: 3.5rem;
+               line-height: 1.3 !important;
+           }
+
+           ul {
+               line-height: 3 !important;
+
+               li {
+                   line-height: 2 !important;
+                   padding: 0;
+               }
+           }
+
+           p {
+               line-height: 2 !important;
+           }
+       }
+
+       .left-sight {
+        background-color: $color-primary-6;  
+
+           h4 {
+               font-size: 1.8rem;
+               text-transform: capitalize;
+               font-weight: 600;
+               font-family: "Poppins", sans-serif;
+               display: inline-block;
+         
+               @supports(-webkit-text-fill-color: transparent)and(-webkit-background-clip: text){
+                   background-image: $color-primary-0;
+                   background-clip: text;
+                   -webkit-background-clip: text;
+                   -webkit-text-fill-color: transparent;
+               }
+           }
+
+           input {
+               box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+               border: none !important;
+
+               &:focus {
+                   outline: none !important;
+                   box-shadow: $fashion-shadow !important;
+               }
+           }
+
+           textarea {
+               border-radius: 3px;
+               box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+
+               border: 1px solid #ced4da;
+
+               &:focus {
+                   outline: none !important;
+                   box-shadow: $fashion-shadow !important;
+
+                   
+               }
+
+
+           }
+
+           
+
+           button {
+               background-color: $color-primary-1;
+               border-color: $color-primary-1;
+               color: white;
+               border-radius: 30px;
+               padding: 16px;
+               box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+
+               &:hover {
+                   background-color: $color-primary-0;
+                   border-color: $color-primary-0;
+               }
+
+               &:focus {
+                   box-shadow: $fashion-shadow !important;
+               }
+           }
+       }
+   }
+}
+
+
+
+
+
+
+.social-media {
+    .icons {
+
+        a {
+            color: $color-primary-1;
+
+
+
+            &:hover {
+                animation-name: swing;
+
+                &>i {
+                    color: $color-primary-0;
+
+
+                }
+            }
+        }
+    }
+}
+
+
+
+}
+
+
+

@@ -1,0 +1,85 @@
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSans/IRANSansWeb_Light.woff') format('woff');
+}
+
+* {
+    direction: rtl;
+    text-align: right;
+    font-family: IRANSans;
+}
+.bg-gray {
+    background-color: #404E67;
+    color: #dcdcdc;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.bg-custom-yellow {
+    background: -webkit-gradient(linear, left top, right top, from(#feb798), to(#fe9365));
+    background: linear-gradient(to right, #feb798, #fe9365);
+}
+
+.bg-custom-green {
+    background: linear-gradient(to right, #0df3a3, #0ac282);
+}
+
+.bg-custom-pink {
+    background: linear-gradient(to right, #fe909d, #fe5d78);
+}
+
+.bg-custom-blue {
+    background: linear-gradient(to right, #01dbdf, #01a9ac);
+}
+
+
+
+/*doctor style */
+
+
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: #404e67;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #274c73
+}
+
+.profile-button:focus {
+    background: #5c7fac;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #4b6ab5;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+.border-radius-15px {
+    border-radius: 15px;
+}
